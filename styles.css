@@ -1,14 +1,20 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 1em;
-    margin-right: 1em;
     margin-bottom: 1em;
-    height: 50px;
-    width: 90%;
+    height: 5em;
+    width: 100%;
+    background-color: darkgrey;
+    position: relative;
+    bottom: 1em;
+    right: 0.5em;
+    padding: 1em;
 }
 
 header a {
@@ -32,9 +38,24 @@ header a:visited {
     color: darkgreen;
 }
 
+nav {
+    margin-right: 1em;
+}
+
 nav ul li {
     display: inline;
     list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 6.5em;
+    }
 }
 
 main {
@@ -45,12 +66,19 @@ main {
     flex-direction: row;
 }
 
-#about {
+#aboutcontainer {
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
     width: 80%;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #projectscontainer {
