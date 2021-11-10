@@ -1,0 +1,80 @@
+header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 50px;
+    width: 90%;
+}
+
+header a {
+    font-weight: 600;
+    font-size: 1.125em;
+}
+
+header a:link {
+    color: limegreen;
+}
+
+header a:hover {
+    color: forestgreen
+}
+
+header a:focus {
+    color: forestgreen;
+}
+
+header a:visited {
+    color: darkgreen;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#about {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+#projectscontainer {
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skillscontainer {
+    width: 45%;
+    margin-right: 5%;
+    text-align: center;
+}
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
