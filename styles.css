@@ -56,6 +56,12 @@ nav ul li {
     header {
         height: 6.5em;
     }
+
+    #contactlinks{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 main {
