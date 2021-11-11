@@ -22,20 +22,20 @@ header a {
     font-size: 1.125em;
 }
 
-header a:link {
-    color: limegreen;
+a:link {
+    color: rgb(60, 0, 109);
 }
 
-header a:hover {
-    color: forestgreen
+a:hover {
+    color: rgb(140, 0, 255);
 }
 
-header a:focus {
-    color: forestgreen;
+a:focus {
+    color: rgb(140,0,255);
 }
 
-header a:visited {
-    color: darkgreen;
+a:visited {
+    color: rgb(93, 40, 136);
 }
 
 nav {
