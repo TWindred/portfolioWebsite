@@ -87,7 +87,7 @@ main {
     align-items: center;
 }
 
-#projectscontainer {
+#projectcontainer {
     width: 45%;
     margin-left: 5%;
     text-align: center;
@@ -99,6 +99,11 @@ main {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    visibility: hidden;
+}
+
+#projects img {
+    margin-top: 0.5em;
 }
 
 #skillscontainer {

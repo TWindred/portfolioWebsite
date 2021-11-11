@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Tyler Windred Portfolio</title>
+        <script type="text/javascript" src="./script.js"></script>
         <script src="https://kit.fontawesome.com/e5b1408dbe.js" crossorigin="anonymous"></script>
         <link href="./styles.css" rel="stylesheet">
     </head>
@@ -13,7 +14,7 @@
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#projectcontainer">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
@@ -29,19 +30,17 @@
                     it was <br> time for a career change and discovered a passion for programming that I am striving to turn into a successful career.</p>
             </div>
 
-            <div id="projectscontainer">
+            <div id="projectcontainer">
                 <h2>Projects</h2>
+                <p>Most of the projects I have completed to date have been through the Full-Stack path on Codecademy, here are a few examples of my work to date:</p>
+                <button id="projectbutton" onclick="changeText(); showProjects();"><h3>Show Projects</h3></button>
                 <section id="projects">
                     <article>
-                        <p>Most of the projects I have completed to date have been through the Full-Stack path on Codecademy, here are a few examples of my work to date:</p>
                         <a href="https://twindred.github.io/responsiveClubWebsiteProject/">
                             <img src="./media/chessClub.png" alt="Image of my responsive webpage project" height="300px" width="500px">
                         </a>
                         <a href="https://twindred.github.io/xyzACompanyThatDoesStuff/">
-                            <img src="media/xyz.png" alt="Image of another responsive webpage project" height="300px" width="500px">
-                        </a>
-                        <a>
-                            <img>
+                                <img src="media/xyz.png" alt="Image of another responsive webpage project" height="300px" width="500px">
                         </a>
                     </article>
                 </section>
